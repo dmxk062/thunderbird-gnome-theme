@@ -1,0 +1,47 @@
+:root {
+  --nord-bg0: #eceff4;
+  --nord-bg1: #d8dee9;
+  --nord-bg2: #cad0dc;
+  --nord-fg0: #2e3440;
+  --nord-border: #eceff4;
+  --gnome-sidebar-shade-color: rgba(0,0,0,0);
+  --gnome-card-shade-color: rgba(0,0,0,0);
+  --gnome-headerbar-shade-color: rgba(0,0,0,0);
+  --gnome-accent-bg: #8fbcbb;
+  --gnome-accent: #8fbcbb;
+  --gnome-border-color: var(--nord-border);
+  --gnome-menu-border-color: var(--nord-border);
+  --gnome-menu-separator-color: var(--nord-border);
+  --gnome-toolbar-border-color: var(--nord-border);
+  --gnome-selection-bg: rgba(143, 188, 187, 0.2);
+  --gnome-toolbar-start-button: #ebcb8b;
+  --gnome-window-background: var(--nord-bg0);
+  --gnome-window-color: var(--nord-fg0);
+  --gnome-view-background: var(--nord-bg0);
+  --gnome-view-color: var(--nord-fg0);
+  --gnome-view-selected-background: var(--nord-bg0);
+  --gnome-view-selected-hover-background: var(--nord-bg0);
+  --gnome-view-selected-active-background: var(--nord-bg0);
+  --gnome-sidebar-background: var(--nord-bg0);
+  --gnome-secondary-sidebar-background: var(--nord-bg0);
+  --gnome-card-background: var(--nord-bg0);
+  --gnome-menu-background: var(--nord-bg0);
+  --gnome-menu-bordercolor: var(--nord-bg2);
+  --gnome-headerbar-background: var(--nord-bg0);
+  --gnome-headerbar-shade-color: var(--nord-bg0);
+  --gnome-toolbar-background: var(--nord-bg0);
+  --gnome-toolbar-icon-fill: var(--nord-fg0);
+  --gnome-button-destructive-action-background: #bf616a;
+  --gnome-tabbar-background: var(--nord-bg0);
+  --gnome-tabbar-tab-active-background-contrast: var(--nord-bg1);
+  --gnome-tabbar-tab-active-background: var(--nord-bg1);
+  --gnome-tabbar-tab-hover-background: var(--nord-bg1);
+  --gnome-tabbar-tab-active-hover-background: var(--nord-bg2); }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --nord-bg0: #2e3440;
+    --nord-bg1: #3b4252;
+    --nord-bg2: #434c5e;
+    --nord-fg0: #eceff4;
+    --nord-border: #2e3440; } }

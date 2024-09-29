@@ -1,0 +1,61 @@
+@import "/home/dmx/.config/gtkcss/common/colors.scss";
+:root {
+    --nord-bg0: #{$snow0};
+    --nord-bg1: #{$snow2};
+    --nord-bg2: #{mix($snow2, $polar3, 90)};
+    --nord-fg0: #{$polar0};
+    --nord-border: #{$snow0};
+
+    --gnome-sidebar-shade-color: rgba(0,0,0,0);
+    --gnome-card-shade-color: rgba(0,0,0,0);
+    --gnome-headerbar-shade-color: rgba(0,0,0,0);
+
+    --gnome-accent-bg: #{$dcyan};
+    --gnome-accent: #{$dcyan};
+
+    --gnome-border-color: var(--nord-border);
+    --gnome-menu-border-color: var(--nord-border);
+    --gnome-menu-separator-color: var(--nord-border);
+    --gnome-toolbar-border-color: var(--nord-border);
+
+    --gnome-selection-bg: #{rgba($dcyan, 0.2)};
+    --gnome-toolbar-start-button: #{$yellow};
+
+    --gnome-window-background: var(--nord-bg0);
+    --gnome-window-color: var(--nord-fg0);
+
+    --gnome-view-background: var(--nord-bg0);
+    --gnome-view-color: var(--nord-fg0);
+
+    --gnome-view-selected-background: var(--nord-bg0);
+    --gnome-view-selected-hover-background: var(--nord-bg0);
+    --gnome-view-selected-active-background: var(--nord-bg0);
+    --gnome-sidebar-background: var(--nord-bg0);
+    --gnome-secondary-sidebar-background: var(--nord-bg0);
+    --gnome-card-background: var(--nord-bg0);
+
+    --gnome-menu-background: var(--nord-bg0);
+    --gnome-menu-bordercolor: var(--nord-bg2);
+    --gnome-headerbar-background: var(--nord-bg0);
+    --gnome-headerbar-shade-color: var(--nord-bg0);
+
+    --gnome-toolbar-background: var(--nord-bg0);
+    --gnome-toolbar-icon-fill: var(--nord-fg0);
+
+    --gnome-button-destructive-action-background: #{$red};
+
+    --gnome-tabbar-background: var(--nord-bg0);
+    --gnome-tabbar-tab-active-background-contrast: var(--nord-bg1);
+    --gnome-tabbar-tab-active-background: var(--nord-bg1);
+    --gnome-tabbar-tab-hover-background: var(--nord-bg1);
+    --gnome-tabbar-tab-active-hover-background: var(--nord-bg2);
+}
+@media (prefers-color-scheme: dark) {	
+    :root {
+        --nord-bg0: #{$polar0};
+        --nord-bg1: #{$polar1};
+        --nord-bg2: #{$polar2};
+        --nord-fg0: #{$snow0};
+        --nord-border: #{$polar0};
+    }
+}
